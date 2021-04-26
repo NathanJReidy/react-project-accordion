@@ -94,16 +94,9 @@ section {
   padding: 3rem;
 }
 
-@media (max-width: 1000px) {
-  section {
-    width: 85%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-  }
-}
-
 .title {
   padding-right: 3rem;
+  margin-bottom: 2rem;
 }
 
 .questionContainer {
@@ -137,6 +130,7 @@ section {
 
 .question {
   margin: 0rem;
+  padding-right: 1rem;
 }
 
 .plusBtn {
@@ -145,8 +139,10 @@ section {
   justify-content: center;
   align-items: center;
   margin: 0rem;
-  height: 2rem;
-  width: 2rem;
+  /* height: 2rem;
+  width: 2rem; */
+  padding: 0.5rem;
+
   background: rgb(232, 224, 224);
   border-radius: 9999px;
   cursor: pointer;
@@ -156,4 +152,46 @@ section {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+
+.minusBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem;
+  /* height: 2rem;
+  width: 2rem; */
+  padding: 0.5rem;
+  background: rgb(232, 224, 224);
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+  section {
+    flex-direction: column;
+    width: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+  }
+
+  .title {
+    padding-right: 1rem;
+  }
+
+  .questionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    border: 1px solid rgb(214, 196, 196);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  }
 }
