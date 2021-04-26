@@ -6,7 +6,8 @@ function App() {
   return (
     <main>
       <section>
-        <h2>accordion project setup</h2>
+        <h3 className="title">Questions And Answers About Login</h3>
+        <SingleQuestion />
       </section>
     </main>
   );
