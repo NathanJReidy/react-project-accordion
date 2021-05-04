@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-project-accordion/static/css/main.e286daad.chunk.css",
+    "main.js": "/react-project-accordion/static/js/main.f9b200a1.chunk.js",
+    "main.js.map": "/react-project-accordion/static/js/main.f9b200a1.chunk.js.map",
+    "runtime-main.js": "/react-project-accordion/static/js/runtime-main.e3469e61.js",
+    "runtime-main.js.map": "/react-project-accordion/static/js/runtime-main.e3469e61.js.map",
+    "static/js/2.2063c1fa.chunk.js": "/react-project-accordion/static/js/2.2063c1fa.chunk.js",
+    "static/js/2.2063c1fa.chunk.js.map": "/react-project-accordion/static/js/2.2063c1fa.chunk.js.map",
+    "index.html": "/react-project-accordion/index.html",
+    "static/css/main.e286daad.chunk.css.map": "/react-project-accordion/static/css/main.e286daad.chunk.css.map",
+    "static/js/2.2063c1fa.chunk.js.LICENSE.txt": "/react-project-accordion/static/js/2.2063c1fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3469e61.js",
+    "static/js/2.2063c1fa.chunk.js",
+    "static/css/main.e286daad.chunk.css",
+    "static/js/main.f9b200a1.chunk.js"
+  ]
+}
